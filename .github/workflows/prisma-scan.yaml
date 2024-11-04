@@ -29,6 +29,6 @@ jobs:
         env:
           PRISMA_API_URL: https://api2.prismacloud.io
         with:
-          api-key: $ {{ secrets.BC_API_KEY }}
+          api-key: ${{ secrets.BC_API_KEY }}
           check: 'HIGH,CRITICA'
   
